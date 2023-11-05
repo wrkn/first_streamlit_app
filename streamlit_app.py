@@ -52,7 +52,6 @@ def insert_row_snowflake(new_fruit):
       return "Thanks for adding " + new_fruit
 
 st.stop()
-
-
 add_my_fruit = st.text_input('What fruit would you like to add?','Kiwi')
-
+if st.button('Add a fruit to the list'):
+  
